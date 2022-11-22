@@ -37,5 +37,9 @@ Project:
    Uri: 'urn:FTOptix:RAEtherNetIP'
    Module: FTOptix.RAEtherNetIP
    Version: 1.0
+  10:
+   Uri: 'urn:FTOptix:WebUI'
+   Module: FTOptix.WebUI
+   Version: 1.0
  Nodes:
  - File: Nodes/myDataModel.yaml

@@ -87,3 +87,13 @@ Children:
         Type: BaseVariableType
         DataType: DynamicLinkMode
         Value: 2
+- Name: INT
+  Id: g=8636ce2a926fb91c29ce2a0e501f50b2
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 50
+- Name: Bool
+  Id: g=8924461ebb8bffe6f8164396e089c3f9
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
