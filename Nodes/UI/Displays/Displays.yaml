@@ -204,6 +204,100 @@ Children:
         DataType: Size
         ModellingRule: Optional
         Value: 10.0
+    - Name: CircularGauge1
+      Type: CircularGauge
+      Children:
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: Float
+        Value: 0.0
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "{NodeId:ns=7;g=b57ebe7f-b5c2-206b-6ec5-9867a8170b49}"
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            ModellingRule: Optional
+            Value: 2
+      - Name: MinValue
+        Type: BaseDataVariableType
+        DataType: Float
+        Value: 0.0
+      - Name: MaxValue
+        Type: BaseDataVariableType
+        DataType: Float
+        Value: 100.0
+      - Name: WarningZones
+        Type: BaseObjectType
+        Children:
+        - Name: WarningZone1
+          Type: WarningZone
+          Children:
+          - Name: From
+            Type: BaseDataVariableType
+            DataType: Float
+            Value: 0.0
+          - Name: To
+            Type: BaseDataVariableType
+            DataType: Float
+            Value: 50.0
+          - Name: Color
+            Type: BaseDataVariableType
+            DataType: Color
+            Value: "#23e103"
+        - Name: WarningZone2
+          Type: WarningZone
+          Children:
+          - Name: From
+            Type: BaseDataVariableType
+            DataType: Float
+            Value: 80.0
+          - Name: To
+            Type: BaseDataVariableType
+            DataType: Float
+            Value: 100.0
+          - Name: Color
+            Type: BaseDataVariableType
+            DataType: Color
+            Value: "#f91c1c"
+        - Name: WarningZone3
+          Type: WarningZone
+          Children:
+          - Name: From
+            Type: BaseDataVariableType
+            DataType: Float
+            Value: 51.0
+          - Name: To
+            Type: BaseDataVariableType
+            DataType: Float
+            Value: 79.0
+          - Name: Color
+            Type: BaseDataVariableType
+            DataType: Color
+            Value: "#f6ea11"
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 210.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 210.0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 110.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 150.0
   - Name: LeftMargin
     Type: BaseVariableType
     DataType: Size

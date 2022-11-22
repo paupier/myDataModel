@@ -716,6 +716,7 @@ Children:
       DataType: String
       Value: "TestBoolTag"
   - Name: TestIncrementTag
+    Id: g=b57ebe7fb5c2206b6ec59867a8170b49
     Type: RAEtherNetIPTag
     DataType: Int32
     Value: 0
