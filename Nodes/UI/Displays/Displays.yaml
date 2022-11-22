@@ -298,6 +298,11 @@ Children:
         DataType: Size
         ModellingRule: Optional
         Value: 150.0
+      - Name: Tooltip
+        Type: BaseDataVariableType
+        DataType: Boolean
+        ModellingRule: Optional
+        Value: false
   - Name: LeftMargin
     Type: BaseVariableType
     DataType: Size
