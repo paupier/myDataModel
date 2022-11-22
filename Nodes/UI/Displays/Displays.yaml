@@ -356,7 +356,7 @@ Children:
           - Name: ID
             Type: BaseDataVariableType
             DataType: String
-            Value: "svg8"
+            Value: "layer1"
           - Name: Property
             Type: BaseDataVariableType
             DataType: AdvancedSVGImagePropertyClass
@@ -413,12 +413,12 @@ Children:
     Type: BaseVariableType
     DataType: Size
     ModellingRule: Optional
-    Value: 10.0
+    Value: 0.0
   - Name: TopMargin
     Type: BaseVariableType
     DataType: Size
     ModellingRule: Optional
-    Value: 10.0
+    Value: 0.0
   - Name: Width
     Type: BaseVariableType
     DataType: Size
