@@ -1,0 +1,204 @@
+Name: RAEtherNet_IPStation1
+Id: g=4039e046a054e41bc164acb4e6a9f67d
+Type: RAEtherNetIPStation
+Children:
+- Name: Route
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "192.168.44.165"
+- Name: OperationCode
+  Type: BaseDataVariableType
+  DataType: CommunicationOperationCode
+  AccessLevel: Read
+  Value: 0
+- Class: Reference
+  Target: ns=8;i=29
+  Direction: Forward
+- Class: Reference
+  Target: ns=8;i=30
+  Direction: Forward
+- Class: Reference
+  Target: ns=8;i=67
+  Direction: Forward
+- Class: Reference
+  Target: ns=8;i=31
+  Direction: Forward
+- Class: Reference
+  Target: ns=8;i=94
+  Direction: Forward
+- Class: Reference
+  Target: ns=8;i=96
+  Direction: Forward
+- File: Tags/Tags.yaml
+- Name: Types
+  Type: BaseObjectType
+  Children:
+  - Name: Motor
+    Id: g=656f9876f54fb32246b7a9e88749d4c8
+    Supertype: TagStructure
+    Children:
+    - Name: Power
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Power"
+    - Name: Speed
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Speed"
+    - Name: CmdOffOn
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "CmdOffOn"
+    - Name: SetSpeed
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "SetSpeed"
+    - Name: Status
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Status"
+  - Name: MyDataType
+    Id: g=a36b4648e4c52262987fe6e4bdf4bd84
+    Supertype: TagStructure
+    Children:
+    - Name: PropertyTag1
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PropertyTag1"
+    - Name: PropertyTag2
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "PropertyTag2"
+    - Name: Tag3
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Tag3"
+  - Name: Spindle
+    Id: g=fa48cd696b8bfbcd49fa5f7a3b5133d9
+    Supertype: TagStructure
+    Children:
+    - Name: current
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "current"
+    - Name: speed
+      Type: RAEtherNetIPTag
+      DataType: Int16
+      Value: 0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "speed"
+    - Name: status
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "status"
+  - Name: Tank
+    Id: g=c84ac44e3154e6f237369872622d3c33
+    Supertype: TagStructure
+    Children:
+    - Name: ValveInStatus
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "ValveInStatus"
+    - Name: ValveInCmd
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "ValveInCmd"
+    - Name: ValveOutStatus
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "ValveOutStatus"
+    - Name: ValveOutCmd
+      Type: RAEtherNetIPTag
+      DataType: Boolean
+      Value: false
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "ValveOutCmd"
+    - Name: Level
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "Level"
+    - Name: SetPoint
+      Type: RAEtherNetIPTag
+      DataType: Float
+      Value: 0.0
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "SetPoint"

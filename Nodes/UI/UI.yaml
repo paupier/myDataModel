@@ -1,0 +1,117 @@
+Name: UI
+Type: FolderType
+Children:
+- Name: DefaultStyleSheet
+  Id: g=a7b8c3b0e3520c8b8bf3f25b65a17919
+  Type: StyleSheet
+  Children:
+  - Name: ButtonStyle
+    Type: ButtonStyle
+  - Name: ButtonAccentStyle
+    Type: ButtonStyle
+  - Name: DataInputStyle
+    Type: DataInputStyle
+  - Name: SwitchStyle
+    Type: SwitchStyle
+  - Name: GaugeStyle
+    Type: GaugeStyle
+  - Name: NavigationPanelStyle
+    Type: NavigationPanelStyle
+  - Name: ChartStyle
+    Type: ChartStyle
+  - Name: DataListStyle
+    Type: DataListStyle
+  - Name: ToolTipStyle
+    Type: ToolTipStyle
+  - Name: ScrollBarStyle
+    Type: ScrollBarStyle
+  - Name: AccordionStyle
+    Type: AccordionStyle
+  - Name: PieChartStyle
+    Type: PieChartStyle
+  - Name: HistogramChartStyle
+    Type: HistogramChartStyle
+- Name: NativePresentationEngine
+  Type: NativePresentationEngine
+  ReferenceType: HasOrderedComponent
+  Children:
+  - Name: EnableVirtualKeyboard
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+  - Name: StartWindow
+    Type: NodePointer
+    DataType: NodeId
+    Value: {"IdType":2,"Id":"08319c1327687745c61bfebde635991c","Namespace":7}
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"Id":12,"Namespace":3}
+  - Name: StyleSheet
+    Type: NodePointer
+    DataType: NodeId
+    Value: {"IdType":2,"Id":"a7b8c3b0e3520c8b8bf3f25b65a17919","Namespace":7}
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"Id":447,"Namespace":3}
+  - Name: StartingUser
+    Type: NodePointer
+    DataType: NodeId
+    Value: {"Id":46,"Namespace":1}
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"Id":14,"Namespace":1}
+  - Name: Sessions
+    Type: BaseObjectType
+  - Name: DynamicVariablesPollingTime
+    Type: BaseDataVariableType
+    DataType: Duration
+    Value: "0:00:00:0.1000000"
+- Name: MainWindow
+  Id: g=08319c1327687745c61bfebde635991c
+  Supertype: Window
+  Children:
+  - Name: Width
+    Type: BaseDataVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 640.0
+  - Name: Height
+    Type: BaseDataVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 580.0
+  - Name: TextBox1
+    Type: TextBox
+    Children:
+    - Name: Text
+      Type: BaseDataVariableType
+      DataType: LocalizedText
+      Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 157.0
+    - Name: LeftMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 62.0
+    - Name: TopMargin
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 58.0
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 52.0
+- File: Displays/Displays.yaml
+- File: Templates/Templates.yaml
