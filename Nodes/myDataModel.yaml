@@ -59,3 +59,12 @@ Children:
     Type: PropertyType
     DataType: NodeId
     Value: {"Id":61}
+- Name: RecipeSchema1
+  Type: Alias
+  DataType: NodeId
+  Value: {"IdType":2,"Id":"ae90c8b901099557fab8fd226bd41f57","Namespace":7}
+  Children:
+  - Name: Kind
+    Type: PropertyType
+    DataType: NodeId
+    Value: {"IdType":2,"Id":"ae90c8b901099557fab8fd226bd41f57","Namespace":7}

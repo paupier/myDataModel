@@ -1,2 +1,93 @@
 Name: Recipes
 Type: FolderType
+Children:
+- Name: RecipeSchema1
+  Id: g=fd61f7fac6ca9639a87be95bfae44510
+  Type: RecipeSchema
+  Children:
+  - Name: Root
+    Type: BaseObjectType
+    Children:
+    - Name: RecipeVar1
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: RecipeVar2
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: RecipeVar3
+      Type: BaseDataVariableType
+      DataType: String
+      Value: ""
+  - Class: Reference
+    Target: ns=31;i=27
+    Direction: Forward
+  - Class: Reference
+    Target: ns=31;i=33
+    Direction: Forward
+  - Class: Reference
+    Target: ns=31;i=31
+    Direction: Forward
+  - Class: Reference
+    Target: ns=31;i=44
+    Direction: Forward
+  - Class: Reference
+    Target: ns=31;i=35
+    Direction: Forward
+  - Class: Reference
+    Target: ns=31;i=37
+    Direction: Forward
+  - Class: Reference
+    Target: ns=31;i=53
+    Direction: Forward
+  - Class: Reference
+    Target: ns=31;i=62
+    Direction: Forward
+  - Class: Reference
+    Target: ns=31;i=55
+    Direction: Forward
+  - Class: Reference
+    Target: ns=31;i=58
+    Direction: Forward
+  - Class: Reference
+    Target: ns=31;i=60
+    Direction: Forward
+  - Name: Store
+    Type: NodePointer
+    DataType: NodeId
+    Value: {"IdType":2,"Id":"83e7bf512e2b5c0822aaec0d802745c1","Namespace":7}
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"Id":1,"Namespace":23}
+  - Name: TableName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "recipe1"
+  - Name: TargetNode
+    Type: NodePointer
+    DataType: NodeId
+    Value: {"IdType":2,"Id":"fa3fdf45471d81a1e4fe2a0eb745fa10","Namespace":7}
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"IdType":0,"Id":0,"Namespace":-1}
+  - Name: EditModel
+    Id: g=ae90c8b901099557fab8fd226bd41f57
+    Type: BaseObjectType
+    Children:
+    - Name: RecipeVar1
+      Type: BaseDataVariableType
+      DataType: Int32
+      Value: 0
+    - Name: RecipeVar2
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: false
+    - Name: RecipeVar3
+      Type: BaseDataVariableType
+      DataType: String
+      Value: ""

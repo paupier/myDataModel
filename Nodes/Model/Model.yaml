@@ -1,4 +1,5 @@
 Name: Model
+Id: g=fa3fdf45471d81a1e4fe2a0eb745fa10
 Type: FolderType
 Children:
 - Name: myObjectModel
@@ -242,3 +243,18 @@ Children:
   Type: BaseDataVariableType
   DataType: Float
   Value: 0.0
+- Name: RecipeVar1
+  Id: g=6b741b5901c9f70d6971ec50e8e62245
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 0
+- Name: RecipeVar2
+  Id: g=20a511fa9d57a652c2b73c8bc0c9df30
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+- Name: RecipeVar3
+  Id: g=42ab93981b5ea1fa0177e12fcd698336
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "0"
