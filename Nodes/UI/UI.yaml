@@ -2080,7 +2080,7 @@ Children:
       - Name: AlarmEventsLogger
         Type: Alias
         DataType: NodeId
-        Value: {"IdType":0,"Id":0,"Namespace":-1}
+        Value: {"IdType":2,"Id":"675dee9c5213c93eb6a0b4ef8eb52d87","Namespace":7}
         Children:
         - Name: Kind
           Type: PropertyType
@@ -2138,7 +2138,7 @@ Children:
         Type: BaseDataVariableType
         DataType: Duration
         ModellingRule: Optional
-        Value: "0:00:00:1.0000000"
+        Value: "0:00:00:3.0000000"
     - Name: AlarmIcon1
       Type: Panel
       WriteMask: BrowseName|DataType|Description|DisplayName|MinimumSamplingInterval|UserAccessLevel
