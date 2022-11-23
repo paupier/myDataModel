@@ -204,3 +204,26 @@ Children:
   Type: BaseDataVariableType
   DataType: Int32
   Value: 40
+- Name: AlarmVar1
+  Id: g=8c302843b86e53e97b796cb935eb1f0a
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+- Name: AlarmVar2
+  Id: g=d7a319c9aed8d84d386c5c8f8719f7df
+  Type: BaseDataVariableType
+  DataType: Float
+  Value: 50.0
+- Name: AlarmVar3
+  Id: g=c56cafd209992dd050726cdb5fee3719
+  Type: BaseDataVariableType
+  DataType: Float
+  Value: 50.0
+- Name: AlarmVar4
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false
+- Name: AlarmVar5
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: false

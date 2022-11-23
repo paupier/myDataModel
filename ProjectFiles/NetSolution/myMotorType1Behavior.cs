@@ -15,6 +15,8 @@ using FTOptix.NetLogic;
 using FTOptix.SQLiteStore;
 using FTOptix.Store;
 using FTOptix.DataLogger;
+using FTOptix.Alarm;
+using FTOptix.EventLogger;
 #endregion
 
 [CustomBehavior]
