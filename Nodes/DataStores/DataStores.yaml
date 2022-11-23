@@ -62,6 +62,18 @@ Children:
           Type: StoreColumn
           DataType: Float
           Value: 0.0
+        - Name: TrendVar1
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+        - Name: TrendVar2
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
+        - Name: TrendVar3
+          Type: StoreColumn
+          DataType: Float
+          Value: 0.0
   - Class: Reference
     Target: ns=25;i=30
     Direction: Forward

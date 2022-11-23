@@ -227,3 +227,18 @@ Children:
   Type: BaseDataVariableType
   DataType: Boolean
   Value: false
+- Name: TrendVar1
+  Id: g=12155765d03da8bbe8619ca4abb6304d
+  Type: BaseDataVariableType
+  DataType: Float
+  Value: 0.0
+- Name: TrendVar2
+  Id: g=10e6db3d32dba2fd91be0a1a40b1be05
+  Type: BaseDataVariableType
+  DataType: Float
+  Value: 0.0
+- Name: TrendVar3
+  Id: g=1dc25f2b1dd38da17879d127d5ef9eec
+  Type: BaseDataVariableType
+  DataType: Float
+  Value: 0.0
