@@ -97,3 +97,94 @@ Children:
   Type: BaseDataVariableType
   DataType: Boolean
   Value: false
+- Name: myMotor1
+  Type: myMotorType1
+  Children:
+  - Name: Speed
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Acceleration
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Power
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+- Name: myMotorType1
+  Id: g=21e6d0cf34755d566b818128fe95f9e1
+  Supertype: myMotorType
+  Children:
+  - Name: Speed
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Acceleration
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Power
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+- Name: myMotor2
+  Type: myMotorType1
+  Children:
+  - Name: Speed
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Acceleration
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Power
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+- Name: myMotor3
+  Type: myMotorType1
+  Children:
+  - Name: Speed
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Acceleration
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Power
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+- Name: myMotor4
+  Type: myMotorType1
+  Children:
+  - Name: Speed
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Acceleration
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Power
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
+- Name: myMotor5
+  Type: myMotorType1
+  Children:
+  - Name: Speed
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Acceleration
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Power
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false

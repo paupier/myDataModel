@@ -4,3 +4,22 @@ Type: FolderType
 Children:
 - File: Users/Users.yaml
 - File: Groups/Groups.yaml
+- Name: myMotorType
+  Id: g=10e32329addeffbcf5d0c58ddc71f30d
+  Supertype: BaseObjectType
+  Children:
+  - Name: Speed
+    Id: g=0aa1bff23780aacda92f4d31697a2020
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Acceleration
+    Id: g=b0fa952789a12c2509864311f0e4ef2c
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 0
+  - Name: Power
+    Id: g=854eef5ade92cbbab714cb84cf307d71
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: false
