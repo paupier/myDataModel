@@ -531,34 +531,6 @@ Children:
     - Name: Label1
       Type: Label
       Children:
-      - Name: Text
-        Type: BaseDataVariableType
-        DataType: LocalizedText
-        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
-        Children:
-        - Name: DynamicLink
-          Type: DynamicLink
-          DataType: NodePath
-          Value: ""
-          Children:
-          - Name: DynamicLinkFormatter
-            Type: StringFormatter
-            Children:
-            - Name: Format
-              Type: BaseDataVariableType
-              DataType: LocalizedText
-              ReferenceType: HasParameter
-              ModellingRule: Optional
-              Value: {"LocaleId":"","Text":"../../SpinBox1/Value{0}"}
-            - Name: ns=2;Source0
-              Type: BaseDataVariableType
-              DataType: BaseDataType
-              ReferenceType: HasSource
-              Children:
-              - Name: DynamicLink
-                Type: DynamicLink
-                DataType: NodePath
-                Value: "{NodeId:ns=7;g=d10a0f5a-1957-3089-6ed3-6ef6291a7bed}"
       - Name: LeftMargin
         Type: BaseVariableType
         DataType: Size
@@ -579,6 +551,172 @@ Children:
         DataType: Size
         ModellingRule: Optional
         Value: 14.0
+      - Name: Text
+        Type: BaseDataVariableType
+        DataType: LocalizedText
+        Value: {"NamespaceIndex":-1,"LocaleId":"","Text":""}
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: ""
+          Children:
+          - Name: DynamicLinkFormatter
+            Type: StringFormatter
+            Children:
+            - Name: Format
+              Type: BaseDataVariableType
+              DataType: LocalizedText
+              ReferenceType: HasParameter
+              ModellingRule: Optional
+              Value: {"LocaleId":"","Text":"/Objects/myDataModel/Model/Variable{0}"}
+            - Name: ns=2;Source0
+              Type: BaseDataVariableType
+              DataType: BaseDataType
+              ReferenceType: HasSource
+              Children:
+              - Name: DynamicLink
+                Type: DynamicLink
+                DataType: NodePath
+                Value: "../../../../../SpinBox1/Value"
+    - Name: SpinBox2
+      Type: SpinBox
+      Children:
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: Double
+        Value: 0.0
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: ""
+          Children:
+          - Name: Mode
+            Type: BaseVariableType
+            DataType: DynamicLinkMode
+            ModellingRule: Optional
+            Value: 2
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 80.0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 20.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 108.0
+    - Name: Rectangle1
+      Type: Rectangle
+      Children:
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 50.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 50.0
+      - Name: BorderThickness
+        Type: BaseDataVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 1.0
+      - Name: LeftMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 120.0
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 90.0
+      - Name: FillColor
+        Type: BaseDataVariableType
+        DataType: Color
+        Value: "#ffffff"
+        Children:
+        - Name: KeyValueConverter1
+          Type: ValueMapConverter
+          Children:
+          - Name: Source
+            Type: BaseDataVariableType
+            DataType: BaseDataType
+            ReferenceType: HasSource
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../../../SpinBox2/Value"
+          - Name: Pairs
+            Type: BaseObjectType
+            ModellingRule: None
+            Children:
+            - Name: Pair
+              Type: ValueMapPair
+              ModellingRule: None
+              Children:
+              - Name: Key
+                Type: BaseDataVariableType
+                DataType: UInt32
+                ModellingRule: None
+                Value: 0
+              - Name: Value
+                Type: BaseDataVariableType
+                DataType: Color
+                ModellingRule: None
+                Value: "#008000"
+            - Name: Pair1
+              Type: ValueMapPair
+              ModellingRule: None
+              Children:
+              - Name: Key
+                Type: BaseDataVariableType
+                DataType: UInt32
+                ModellingRule: None
+                Value: 1
+              - Name: Value
+                Type: BaseDataVariableType
+                DataType: Color
+                ModellingRule: None
+                Value: "#0000ff"
+            - Name: Pair2
+              Type: ValueMapPair
+              ModellingRule: None
+              Children:
+              - Name: Key
+                Type: BaseDataVariableType
+                DataType: UInt32
+                ModellingRule: None
+                Value: 2
+              - Name: Value
+                Type: BaseDataVariableType
+                DataType: Color
+                ModellingRule: None
+                Value: "#00ffff"
+            - Name: Pair3
+              Type: ValueMapPair
+              ModellingRule: None
+              Children:
+              - Name: Key
+                Type: BaseDataVariableType
+                DataType: UInt32
+                ModellingRule: None
+                Value: 3
+              - Name: Value
+                Type: BaseDataVariableType
+                DataType: Color
+                ModellingRule: None
+                Value: "#ff0000"
 - Name: MainWindow
   Id: g=08319c1327687745c61bfebde635991c
   Supertype: Window
