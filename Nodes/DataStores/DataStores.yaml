@@ -238,6 +238,10 @@ Children:
           Type: StoreColumn
           DataType: ByteString
           Value: ""
+        - Name: 'Message_ga-IE'
+          Type: StoreColumn
+          DataType: String
+          Value: ""
   - Class: Reference
     Target: ns=25;i=30
     Direction: Forward

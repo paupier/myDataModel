@@ -9,24 +9,24 @@ Children:
   Value: 
    {
     "Type": 12,
-    "Dimensions": [17,2],
+    "Dimensions": [17,3],
     "Body": [
-     "","en-US",
-     "Acknowledge","Acknowledge",
-     "Acknowledge All","Acknowledge All",
-     "Confirm","Confirm",
-     "Confirm All","Confirm All",
-     "SourceName","Source Variable",
-     "Timestamp","Timestamp",
-     "Name","Name",
-     "Message","Message",
-     "Active","Active",
-     "Acked","Acked",
-     "Confirmed","Confirmed",
-     "Severity","Severity",
-     "Save","Save",
-     "Delete","Delete",
-     "Load","Load",
-     "Apply","Apply"
+     "","en-US","it-IT",
+     "Acknowledge","Acknowledge","",
+     "Acknowledge All","Acknowledge All","",
+     "Confirm","Confirm","",
+     "Confirm All","Confirm All","",
+     "SourceName","Source Variable","",
+     "Timestamp","Timestamp","",
+     "Name","Name","",
+     "Message","Message","",
+     "Active","Active","",
+     "Acked","Acked","",
+     "Confirmed","Confirmed","",
+     "Severity","Severity","",
+     "Save","Save","",
+     "Delete","Delete","",
+     "Load","Load","",
+     "Apply","Apply",""
     ]
    }

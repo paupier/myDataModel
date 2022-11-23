@@ -29,7 +29,7 @@ Children:
   DataType: String
   ValueRank: OneDimension
   ArrayDimensions: [0]
-  Value: ["en-US","ga-IE"]
+  Value: ["en-US","ga-IE","it-IT"]
 - Name: LocaleFallbackList
   Type: BaseDataVariableType
   DataType: String
