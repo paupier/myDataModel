@@ -460,6 +460,28 @@ Children:
           Type: PropertyType
           DataType: UInt16
           Value: 0
+- Name: Window1
+  Id: g=47e79e77c2657e55b92a3469b934bd11
+  Supertype: Window
+  Children:
+  - Name: X
+    Type: BaseDataVariableType
+    DataType: Size
+    Value: 0.0
+  - Name: Y
+    Type: BaseDataVariableType
+    DataType: Size
+    Value: 0.0
+  - Name: Width
+    Type: BaseDataVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 400.0
+  - Name: Height
+    Type: BaseDataVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 400.0
 - Name: MainWindow
   Id: g=08319c1327687745c61bfebde635991c
   Supertype: Window
